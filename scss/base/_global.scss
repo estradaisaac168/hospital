@@ -1,0 +1,49 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.section {
+    padding: 3rem 0 0 0;
+}
+
+.heading {
+    text-align: center;
+    margin: 3rem 0;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+// p {
+//     font-size: 1.4rem;
+//     margin-bottom: 1rem;
+//     color: v.$grey;
+// }
+
+// a {
+//     color: v.$secondary-color;
+//     text-decoration: none;
+//     transition: color 0.3s ease;
+
+//     &:hover {
+//         color: darken(v.$secondary-color, 15%);
+//     }
+// }

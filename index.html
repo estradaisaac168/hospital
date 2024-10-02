@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+
+    <!-- ICONS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- FONTS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <!-- CDN STYLE -->
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <!-- NAVBAR TO NAVIGATE THE SECTIONS OF THE PAGE -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Hospital</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Another link
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <a href="#" class="btn btn-nav-custom text-white btn-lg" type="button">Llamar a Emergencias</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- SCROLL INDICATOR -->
+        <div class="scroll-watcher"></div>
+
+
+        <!-- HERO -->
+        <section id="hero" class="hero-section d-flex align-items-center">
+            <!-- DARK LAYER -->
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="hero-title display-1 text-white ml3">Bienvenido a Nuestro Hospital</h1>
+                        <p class="lead hero-description text-white my-4">
+                            Brindamos atención médica de calidad y estamos comprometidos con su bienestar.
+                        </p>
+                        <a href="#services" class="btn btn-lg btn-hero">Conoce Nuestros Servicios</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <!-- WHY-US -->
+    <section class="section why-us">
+
+        <!-- CONTAINER -->
+        <div class="container">
+
+            <h2 class="heading title display-2">Why us?</h2>
+
+            <p class="lead description text-muted text-center m-auto w-75">
+                We provide quality medical care, with advanced technology and an expert team committed to your health
+                and well-being.
+            </p>
+
+            <!-- GRID CONTENT -->
+            <div class="grid-why-us my-5">
+                <!-- CARD 1 -->
+                <div class="card p-5 p-md-3 p-lg-3 p-xl-4 shadow d-flex flex-column align-items-center">
+
+                    <i class="bi bi-heart-pulse card-icon"></i>
+
+                    <div class="card-body">
+
+                        <div class="card-title">
+                            <h3 class="text-center">Atención de Calidad</h3>
+                        </div>
+
+                        <p class="card-text text-center">Cuidamos de nuestros pacientes con un enfoque humanizado y
+                            profesional.</p>
+                    </div>
+                </div>
+                <!-- CARD 2 -->
+                <div class="card p-5 p-md-3 p-lg-3 p-xl-4 shadow d-flex flex-column align-items-center">
+
+                    <i class="bi bi-laptop-fill card-icon"></i>
+
+                    <div class="card-body">
+
+                        <div class="card-title">
+                            <h3 class="text-center">Tecnología Avanzada</h3>
+                        </div>
+
+                        <p class="card-text text-center">Equipos de última generación para diagnósticos precisos y
+                            rápidos.</p>
+                    </div>
+                </div>
+                <!-- CARD 3 -->
+                <div class="card p-5 p-md-3 p-lg-3 p-xl-4 shadow d-flex flex-column align-items-center">
+
+                    <i class="bi bi-person-check-fill card-icon"></i>
+
+                    <div class="card-body">
+
+                        <div class="card-title">
+                            <h3 class="text-center">Equipo Experto</h3>
+                        </div>
+
+                        <p class="card-text text-center">Profesionales altamente capacitados comprometidos con tu
+                            bienestar.</p>
+                    </div>
+                </div>
+                <!-- CARD 4 -->
+                <div class="card p-5 p-md-3 p-lg-3 p-xl-4 shadow d-flex flex-column align-items-center">
+
+                    <i class="bi bi-shield-fill card-icon"></i>
+
+                    <div class="card-body">
+
+                        <div class="card-title">
+                            <h3 class="text-center">Compromiso y Salud</h3>
+                        </div>
+
+                        <p class="card-text text-center">Nos dedicamos a brindar un ambiente seguro y de confianza para
+                            todos nuestros pacientes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section about">
+
+        <!-- GRID -->
+        <div class="about-grid bg-grey">
+
+            <!-- IMAGE -->
+            <div class="about-img"></div>
+
+            <!-- CONTENT -->
+            <div class="about-content text-white">
+
+                <h2 class="heading title about-title text-start display-2">Nosotros</h2>
+
+                <article class="about-text mb-5">
+                    <p class="lead">En [Nombre del Hospital], nuestra misión es brindar atención médica de calidad,
+                        centrada en el
+                        paciente, con un enfoque humano y profesional. Con más de [X años] de experiencia, nos hemos
+                        consolidado como un centro de salud de referencia, ofreciendo una amplia gama de servicios
+                        médicos que abarcan desde atención primaria hasta especialidades avanzadas.</p>
+
+                    <p class="lead">Nuestro equipo está formado por profesionales altamente capacitados, comprometidos
+                        con el
+                        bienestar de cada paciente. Creemos en la innovación y la tecnología como herramientas
+                        fundamentales para garantizar diagnósticos precisos y tratamientos efectivos. Además, nuestras
+                        instalaciones están diseñadas para ofrecer comodidad y seguridad a nuestros pacientes y sus
+                        familias.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="section services">
+        <div class="container">
+            <h2 class="heading title display-2">Nuestros Servicios</h2>
+
+            <p class="lead description text-muted text-center m-auto w-75">
+                Nuestros servicios están diseñados para brindarte atención médica de calidad, combinando tecnología
+                avanzada con un equipo especializado comprometido con tu bienestar.
+            </p>
+
+
+            <div class="grid-services mt-5">
+
+                <div class="card shadow">
+                    <div class="image-container">
+                        <img src="./img/service1.jpg" class="img-fluid" alt="Servicio 1">
+                        <h5 class="card-title">Emergencias 24/7</h5>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <p class="card-text flex-grow-1">Atención inmediata para situaciones críticas, disponible las 24
+                            horas del día, los 7 días de la semana.</p>
+                        <a href="#" class="btn d-block text-white btn-primary">Leer más</a>
+                    </div>
+                </div>
+
+
+                <div class="card shadow">
+                    <div class="image-container">
+                        <img src="./img/service2.jpg" class="img-fluid" alt="Servicio 2">
+                        <h5 class="card-title">Consulta Externa</h5>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <p class="card-text flex-grow-1">Diagnóstico y tratamiento personalizado para diversas
+                            especialidades médicas.</p>
+                        <a href="#" class="btn d-block text-white btn-primary">Leer más</a>
+                    </div>
+                </div>
+
+
+                <div class="card shadow">
+                    <div class="image-container">
+                        <img src="./img/service3.jpg" class="img-fluid" alt="Servicio 3">
+                        <h5 class="card-title">Laboratorio Clínico</h5>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <p class="card-text flex-grow-1">Pruebas de diagnóstico con tecnología avanzada y resultados
+                            rápidos y precisos.</p>
+                        <a href="#" class="btn d-block text-white btn-primary">Leer más</a>
+                    </div>
+                </div>
+
+                <div class="card shadow">
+                    <div class="image-container">
+                        <img src="./img/service4.jpg" class="img-fluid" alt="Servicio 3">
+                        <h5 class="card-title">Laboratorio Clínico</h5>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <p class="card-text flex-grow-1">Pruebas de diagnóstico con tecnología avanzada y resultados
+                            rápidos y precisos.</p>
+                        <a href="#" class="btn d-block text-white btn-primary">Leer más</a>
+                    </div>
+                </div>
+
+
+                <div class="card shadow">
+                    <div class="image-container">
+                        <img src="./img/service5.jpg" class="img-fluid" alt="Servicio 3">
+                        <h5 class="card-title">Cirugía General</h5>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <p class="card-text flex-grow-1">Intervenciones quirúrgicas seguras y con los mejores
+                            especialistas.</p>
+                        <a href="#" class="btn d-block text-white btn-primary">Leer más</a>
+                    </div>
+                </div>
+
+
+                <div class="card shadow">
+                    <div class="image-container">
+                        <img src="./img/service3.jpg" class="img-fluid" alt="Servicio 3">
+                        <h5 class="card-title">Pediatría</h5>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <p class="card-text flex-grow-1">Atención médica integral para niños y adolescentes.</p>
+                        <a href="#" class="btn d-block text-white btn-primary">Leer más</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section gallery">
+
+        <!-- CONTAINER -->
+        <div class="container">
+
+            <h2 class="heading title display-2">Nuestras instalaciones</h2>
+
+            <p class="lead description text-muted text-center m-auto w-75">Nuestras instalaciones están equipadas con
+                tecnología de
+                vanguardia y un ambiente cómodo y seguro, diseñado para ofrecerte la mejor experiencia en atención
+                médica.</p>
+
+            <!-- GRID -->
+            <div class="gallery-grid mt-5">
+
+                <!-- IMAGE 1 -->
+                <div class="gallery-item">
+                    <img src="./img/test.jpg" alt="Gallery Image 1" class="fade-in img-fluid">
+                </div>
+
+                <!-- IMAGE 2 -->
+                <div class="gallery-item">
+                    <img src="./img/test2.jpg" alt="Gallery Image 2" class="fade-in img-fluid">
+                </div>
+
+                <!-- IMAGE 3 -->
+                <div class="gallery-item">
+                    <img src="./img/test3.jpg" alt="Gallery Image 3" class="fade-in img-fluid">
+                </div>
+
+                <!-- IMAGE 4 -->
+                <div class="gallery-item">
+                    <img src="./img/test4.jpg" alt="Gallery Image 4" class="fade-in img-fluid">
+                </div>
+
+                <!-- IMAGE 5 -->
+                <div class="gallery-item">
+                    <img src="./img/test5.jpg" alt="Gallery Image 5" class="fade-in img-fluid">
+                </div>
+
+                <!-- IMAGE 6 -->
+                <div class="gallery-item">
+                    <img src="./img/test2.jpg" alt="Gallery Image 6" class="fade-in img-fluid">
+                </div>
+
+                <!-- IMAGE 7 -->
+                <div class="gallery-item">
+                    <img src="./img/test3.jpg" alt="Gallery Image 7" class="fade-in img-fluid">
+                </div>
+
+                <!-- IMAGE 8 -->
+                <div class="gallery-item">
+                    <img src="./img/test4.jpg" alt="Gallery Image 8" class="fade-in img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL SWIPER JS-->
+    <section class="section testimonials bg-tertiary">
+        <h2 class="heading title display-2">Clientes satisfechos</h2>
+        <p class="lead description text-muted text-center m-auto w-75">Nuestras instalaciones están equipadas con
+            tecnología de
+            vanguardia y un ambiente cómodo y seguro, diseñado</p>
+        <div class="swiper mySwiper mt-5">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide testimonial">
+                    <div class="quote-icon">
+                        <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="comment">"¡El equipo médico fue increíble! Recibí una atención de primera clase."</p>
+                    <p class="client-name">- Juan Pérez</p>
+                </div>
+
+
+                <div class="swiper-slide testimonial">
+                    <div class="quote-icon">
+                        <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="comment">"Un hospital con tecnología avanzada y personal muy profesional."</p>
+                    <p class="client-name">- Ana Gómez</p>
+                </div>
+
+
+                <div class="swiper-slide testimonial">
+                    <div class="quote-icon">
+                        <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="comment">"Gracias por cuidar de mí y de mi familia en todo momento."</p>
+                    <p class="client-name">- Carlos Ramírez</p>
+                </div>
+
+                <div class="swiper-slide testimonial">
+                    <div class="quote-icon">
+                        <i class="bi bi-quote"></i>
+                    </div>
+                    <p class="comment">"Gracias por cuidar de mí y de mi familia en todo momento."</p>
+                    <p class="client-name">- Carlos Ramírez</p>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- HOURS -->
+    <section class="section hours">
+        <div class="overlay">
+            <div class="content">
+                <h2 class="heading title mt-0 display-2">Emergencias 24/7</h2>
+                <button class="btn btn-hour-custom btn-red btn-lg">+(503) 2222 -2222</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FQA -->
+    <section class="section fqa bg-tertiary">
+        <div class="container-lg">
+            <h2 class="heading title display-3">FQA</h2>
+            <p class="lead description text-muted text-center m-auto w-75">Nuestras instalaciones están equipadas con
+                tecnología de
+                vanguardia y un ambiente cómodo y seguro, diseñado para ofrecerte la mejor experiencia en atención
+                médica.</p>
+            <div class="card p-3 p-lg-4 mt-5 shadow">
+                <div class="fqa-grid">
+
+                    <div class="content-left">
+                        <img src="./img/fqa.jpg" class="img-fluid rounded" alt="">
+
+                        <div class="fqa-buttons my-3">
+                            <p class="text-muted m-0">Tienes mas preguntas?</p>
+                            <button class="btn btn-custom">Contactanos</button>
+                        </div>
+                    </div>
+
+                    <div class="accordion" id="faqAccordion">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    ¿Cuál es el horario de atención?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Nuestro horario de atención es de lunes a viernes, de 8:00 AM a 6:00 PM. Los
+                                    fines de semana estamos cerrados.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    ¿Ofrecen consultas de emergencia?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Sí, ofrecemos consultas de emergencia las 24 horas del día. Puede llamarnos
+                                    o acudir directamente a nuestro hospital.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    ¿Aceptan seguros médicos?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Aceptamos una variedad de seguros médicos. Puede consultar con nuestro
+                                    departamento de administración para obtener más detalles.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    ¿Aceptan seguros médicos?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Aceptamos una variedad de seguros médicos. Puede consultar con nuestro
+                                    departamento de administración para obtener más detalles.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="py-5 contact  bg-tertiary">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info p-4">
+                    <h2 class="heading text-start m-0 ">Información de Contacto</h2>
+                    <hr class="text-red">
+                    <p><strong>Dirección:</strong> Calle Ejemplo 123, Ciudad, País</p>
+                    <p><strong>Teléfono:</strong> +1 (234) 567-890</p>
+                    <p><strong>Email:</strong> contacto@hospital.com</p>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509862!2d144.95373531531896!3d-37.81720997975173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f0f3dcb%3A0x5045675218ceed0!2sYour+Location!5e0!3m2!1sen!2sus!4v1551169532821!5m2!1sen!2sus"
+                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form p-4 shadow bg-white">
+                    <h2 class="heading text-start m-0 ">Contáctanos</h2>
+                    <hr class="text-red">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- BLOG -->
+    <section class="section pb-5 blog-posts">
+        <div class="container">
+            <h2 class="heading title display-3">Nuestro blog</h2>
+
+            <div class="post-grid">
+                <article class="card shadow h-100">
+                    <img src="./img/test3.jpg" class="card-img-top" alt="Post Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Importancia de la Salud Preventiva</h5>
+                        <p class="card-text">Publicado el 20 de septiembre de 2024</p>
+                        <p class="card-text description">Descubre cómo mantener tu salud a través de chequeos regulares
+                            y cómo la
+                            prevención puede salvar vidas. Conoce las recomendaciones de nuestros especialistas.</p>
+                        <a href="post1.html" class="btn btn-primary">Leer más</a>
+                    </div>
+                </article>
+
+                <article class="card shadow h-100">
+                    <img src="./img/test4.jpg" class="card-img-top" alt="Post Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Innovaciones en Tecnología Médica</h5>
+                        <p class="card-text">Publicado el 15 de septiembre de 2024</p>
+                        <p class="card-text description">Explora cómo las últimas innovaciones tecnológicas están
+                            revolucionando los
+                            diagnósticos y tratamientos en la medicina moderna. Desde robots quirúrgicos hasta
+                            telemedicina.</p>
+                        <a href="post2.html" class="btn btn-primary">Leer más</a>
+                    </div>
+                </article>
+
+                <article class="card shadow h-100">
+                    <img src="./img/test3.jpg" class="card-img-top" alt="Post Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Cuidando de la Salud Mental</h5>
+                        <p class="card-text">Publicado el 10 de septiembre de 2024</p>
+                        <p class="card-text description">La salud mental es tan importante como la salud física. Aprende
+                            cómo
+                            detectar señales de alerta y cómo nuestros profesionales pueden ayudarte a mejorar tu
+                            bienestar emocional.</p>
+                        <a href="post3.html" class="btn btn-primary">Leer más</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón de Up con icono de Bootstrap -->
+    <a id="btn-up" title="Ir Arriba">
+        <i class="bi bi-arrow-up-circle-fill"></i>
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="footer-content p-5">
+                <div class="footer-grid">
+
+
+                    <div class="useful-links">
+                        <h5 class="mb-3">Enlaces Útiles</h5>
+                        <ul class="content-links">
+                            <li><a href="#">Sobre Nosotros</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Política de Privacidad</a></li>
+                        </ul>
+
+                        <button class="btn btn-lg bg-red text-white">Emergencias</button>
+                    </div>
+
+                    <div class="footer-pay mb-3">
+                        <h5 class="mb-3"> Formas de Pago</h5>
+                        <img src="./img/metodos-pago.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="social-links">
+                        <h5 class="mb-3">Redes Sociales</h5>
+                        <div class="social-content">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024 - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <!-- BOOTSTRAP JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+    <!-- CDN TEXT ANIMATION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
