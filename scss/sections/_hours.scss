@@ -5,14 +5,14 @@
 .hours {
   position: relative;
   height: 80vh;
-  background-image: url('../img/ambulance.jpg');
+  background-image: url('../img/ambulance.webp');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 
 .overlay {
-  position: absolute;
+  position: absolute; 
   top: 0;
   left: 0;
   right: 0;
